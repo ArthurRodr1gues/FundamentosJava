@@ -1,3 +1,5 @@
+//Solução que utiliza uma lista para armazenar o nome dos menores de 16 anos
+
 package C_10_memoria_arrays_e_listas.A_VETORES;
 
 import java.util.ArrayList;
