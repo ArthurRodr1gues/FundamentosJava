@@ -24,38 +24,44 @@ public class Program4 {
 		Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
 		Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
 		
-		System.out.println("pastWeekDate = " + pastWeekDate);
-		System.out.println("nextWeekDate = " + nextWeekDate);
+		System.out.println("p1: pastWeekDate = " + pastWeekDate);
+		//Resultado:
+ 
+		System.out.println("p2: nextWeekDate = " + nextWeekDate);
+		//Resultado:
 		
-		System.out.println("pastWeekLocalDate = " + pastWeekLocalDate);
-		System.out.println("nextWeekLocalDate = " + nextWeekLocalDate);
+		System.out.println("p3: pastWeekLocalDate = " + pastWeekLocalDate);
+		//Resultado:
+
+		System.out.println("p4: nextWeekLocalDate = " + nextWeekLocalDate);
 		
-		System.out.println("pastWeekInstant = " + pastWeekInstant);
-		System.out.println("nextWeekInstant = " + nextWeekInstant);
+	
+		System.out.println("p5: pastWeekInstant = " + pastWeekInstant);
+		System.out.println("p6: nextWeekInstant = " + nextWeekInstant);
 		
 		Duration t1 = Duration.between(pastWeekDate.atStartOfDay(), d04.atStartOfDay());
 		Duration t2 = Duration.between(pastWeekLocalDate, d05);
 		Duration t3 = Duration.between(pastWeekInstant, d06);
 		Duration t4 = Duration.between(d06, pastWeekInstant);
 
-		System.out.println("t1 dias = " + t1.toDays());
-		System.out.println("t2 dias = " + t2.toDays());
-		System.out.println("t3 dias = " + t3.toDays());
-		System.out.println("t4 dias = " + t4.toDays());
+		System.out.println("p7: t1 dias = " + t1.toDays());
+		System.out.println("p8: t2 dias = " + t2.toDays());
+		System.out.println("p9: t3 dias = " + t3.toDays());
+		System.out.println("p10: t4 dias = " + t4.toDays());
 	}
 }
 /*************
  * Terminal *
  *************
-pastWeekDate = 2022-07-13
-nextWeekDate = 2022-07-27
-pastWeekLocalDate = 2022-07-13T01:30:26
-nextWeekLocalDate = 2022-07-27T01:30:26
-pastWeekInstant = 2022-07-13T01:30:26Z
-nextWeekInstant = 2022-07-27T01:30:26Z
-t1 dias = 7
-t2 dias = 7
-t3 dias = 7
-t4 dias = -7
+p1: pastWeekDate = 2022-07-13
+p2: nextWeekDate = 2022-07-27
+p3: pastWeekLocalDate = 2022-07-13T01:30:26
+p4: nextWeekLocalDate = 2022-07-27T01:30:26
+p5: pastWeekInstant = 2022-07-13T01:30:26Z
+p6: nextWeekInstant = 2022-07-27T01:30:26Z
+p7: t1 dias = 7
+p8: t2 dias = 7
+p9: t3 dias = 7
+p10: t4 dias = -7
  
 */
