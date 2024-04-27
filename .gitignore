@@ -10,3 +10,12 @@ bin/C_10_memoria_arrays_e_listas/B_LISTAS/Application/Program.class
 bin/C_10_memoria_arrays_e_listas/B_LISTAS/Entities/Employee.class
 bin/C_10_memoria_arrays_e_listas/C_Matrizes/Instruções.txt
 bin/C_10_memoria_arrays_e_listas/C_Matrizes/Program.class
+bin/C_11_DateTime/Main.class
+bin/C_11_DateTime/Program1.class
+bin/C_11_DateTime/Program2.class
+src/C_11_DateTime/Program2.class
+bin/C_11_DateTime/Program3.class
+bin/C_11_DateTime/Program4.class
+.classpath
+.project
+bin/.gitignore
