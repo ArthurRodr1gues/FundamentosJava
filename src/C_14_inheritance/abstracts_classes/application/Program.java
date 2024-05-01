@@ -20,6 +20,7 @@ public class Program {
 		list.add(new SavingsAccount(1004, "Bob", 300.0, 0.01));
 		list.add(new BusinessAccount(1005, "Anna", 500.0, 500.0));
 		
+		//Somando o saldo total de todas as contas, independente do tipo
 		double sum = 0.0;
 		for (Account acc : list) {
 			sum += acc.getBalance();

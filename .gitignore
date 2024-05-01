@@ -38,3 +38,7 @@ bin/C_14_inheritance/abstracts_methods/entities/Circle.class
 bin/C_14_inheritance/abstracts_methods/entities/Rectangle.class
 bin/C_14_inheritance/abstracts_methods/entities/Shape.class
 bin/C_14_inheritance/abstracts_methods/entities/enums/Color.class
+bin/C_14_inheritance/README.md
+bin/C_15_exceptions/application/Program.class
+bin/C_15_exceptions/model/exceptions/DomainException.class
+bin/C_15_exceptions/model/entities/Reservation.class
