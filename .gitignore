@@ -42,3 +42,6 @@ bin/C_14_inheritance/README.md
 bin/C_15_exceptions/application/Program.class
 bin/C_15_exceptions/model/exceptions/DomainException.class
 bin/C_15_exceptions/model/entities/Reservation.class
+bin/C_17_files/ENUNCIADO.md
+bin/C_17_files/application/Program.class
+bin/C_17_files/entities/Product.class
