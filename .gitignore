@@ -45,3 +45,17 @@ bin/C_15_exceptions/model/entities/Reservation.class
 bin/C_17_files/ENUNCIADO.md
 bin/C_17_files/application/Program.class
 bin/C_17_files/entities/Product.class
+bin/C_18_Interfaces_Ex_Res/services/PaypalService.class
+bin/C_18_Interfaces_Ex_Res/services/OnlinePaymentService.class
+bin/C_18_Interfaces_Ex_Res/services/ContractService.class
+bin/C_18_Interfaces_Ex_Res/entities/Installment.class
+bin/C_18_Interfaces_Ex_Res/entities/Contract.class
+bin/C_18_Interfaces_Ex_Res/application/Program.class
+bin/C_18_Interfaces/model/services/TaxService.class
+bin/C_18_Interfaces/model/services/RentalService.class
+bin/C_18_Interfaces/model/services/BrazilTaxService.class
+bin/C_18_Interfaces/model/entities/Vehicle.class
+bin/C_18_Interfaces/model/entities/Invoice.class
+bin/C_18_Interfaces/model/entities/CarRental.class
+bin/C_18_Interfaces/application/Program.class
+bin/C_18_Interfaces/noInterface.txt
